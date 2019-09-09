@@ -63,7 +63,11 @@ git add .//git add y un punto
 git commit -m "he agregado mi primer login"
 git banch
 git checkout master
+*************pego la direccion sin el tilde cuando creo la pagina 
 
+>git remote add origin https://github.com/NelsonBermejo/GIT-CURSO.git
+git status
+git push -u origin master
 
 o
 
@@ -75,3 +79,4 @@ Ctrl + R
 
 ls //comando para listar directorios y archivos
 
+mark dawn 
