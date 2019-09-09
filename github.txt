@@ -1,0 +1,77 @@
+git
+sanp shoot
+*********
+descarga//https://git-scm.com
+clck luego de vim en el ultimo y en el ultimo los dos
+Basic commands
+
+bash= terminal//
+tres estados :working directory--git add-->staging area--git commit-->repository
+
+git init//creamos un proyecto
+git add < file>//pasar al staging area
+git status//donde esta
+git commit//del staging  foto
+git push//servidor
+git pull//trae los cambios
+git clone//copia del archivo
+
+consola comandos
+Git Bash HERE //sobre nuestro proyecto CLICK DERECHO
+pwd//me dice donde estoy ubicado
+cd Desktop
+cd gitEjemplo
+ls
+git init//para inicializar el proyecto gitEjemplo
+git status// para ver el estado de nuestros archivos
+git add app.js //para agregar un archivo al staging area
+git commit //para crear un primer punto de control de nuestro codigo
+git config --global user.email  "xxxxx@gmail.com"//para configurar el email de este usuario//si me equivoco vuelvo a escribir el comando
+git config --global user.name  "N"
+git commit///me envia a vim console
+y+enter//para poder escribir
+escribo//
+:wq+enter//no olvidarse de los dos puntos/w:escribir q:salir o sea quit 
+git log//para ver todos los commits que hemos creado//mi primer version
+git status//nothing to commit, working tree clean
+hice una modificacion y probe el status//modified
+git checkout  -- index.html//para revertir los cambios de los archivos
+git status//
+git diff index.html//para ver las diferencias hechas en los archivos//MARCA EN ROJO COMO ESTABA, Y MARCA EN VERDE LOS CAMBIOS 
+
+git add index.html//vuelvo a aderir los cambios a mi entorno de trabajo
+git commit//para guardarlos
+y
+:qw
+git log//para ver mis versiones
+**PUEDO CREAR UNA CARPER A LA CUAL LLAMAR .girignore
+file= .gitignore
+en git ignore escribo los archivos a ignorar
+**************************************
+git status
+git add .gitignore
+git commit -m "he agregado un git ignore"
+git branch//saco una foto de todos mis archivos
+git branch login//creo una nueva version alternativa llamada login
+git branch//me aparecen las dos versiones
+git checkout login//elijo la version login, salir con login
+git branch//ME MARCA CON UN *login en verde donde estoy
+
+
+******************COMO EVITAR AGREGAR UNO POR UNO LOS ARCHIVOS
+git add .//git add y un punto
+git commit -m "he agregado mi primer login"
+git banch
+git checkout master
+
+
+o
+
+Ctrl + R
+>cd Desktop
+>cd gitEjemplo
+>git init
+
+
+ls //comando para listar directorios y archivos
+
